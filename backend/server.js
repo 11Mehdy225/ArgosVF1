@@ -38,7 +38,7 @@ dotenv.config(); // <== Assure-toi que c’est fait avant d'utiliser process.env
 
 
 // URI de connexion MongoDB
-const uri ="mongodb+srv://loicmehdy11:Loicmehdy1997@cluster0.gvv8thg.mongodb.net/argosTest1?retryWrites=true&w=majority&appName=Cluster0";
+const uri ="";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 
