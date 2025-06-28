@@ -1,0 +1,89 @@
+.calendar-container {
+    flex: 1;
+    margin: 20px;
+    overflow-x: auto;
+    background-color: white;
+  }
+  
+  .rbc-calendar {
+    min-width: 600px; /* évite que ça soit trop serré */
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .rbc-toolbar-label {
+      font-size: 14px;
+    }
+    .rbc-event {
+      font-size: 12px;
+    }
+  }
+  
+  .custom-hours-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    max-width: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    overflow-y: auto;
+    max-height: 90vh;
+    z-index: 9999;
+  }
+  
+  .custom-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 9998;
+  }
+  
+  .hours-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .hours-table th,
+  .hours-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .hours-table th {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .close-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .close-btn:hover {
+    background-color: #5a6268;
+  }
+  
+  .view-hours-btn {
+    margin-bottom: 15px;
+    padding: 10px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  .view-hours-btn:hover {
+    background-color: #0056b3;
+  }
+  

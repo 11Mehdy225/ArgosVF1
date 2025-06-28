@@ -1,0 +1,141 @@
+.sidebar2 {
+    width: 265px; 
+    height: 100vh; 
+    background-color: white; 
+    position: fixed; 
+    top: 100px;
+    left: 0;
+    padding-top: 20px;
+    z-index: 2;
+    transition: all 0.2s ease-in-out;
+    font-size: 20px;
+    border-left: 4px solid transparent; 
+    
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+  }
+  
+  .sidebar nav ul li {
+    padding: 10px;
+   
+  }
+  
+  .sidebar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 25px;
+  }
+  
+  .nav-link:hover {
+    background-color: #f0f0f0;
+    color:#6D5BD0;
+  }
+  
+  .active-link {
+    border-left: 4px solid#6D5BD0; /* trait bleu sur lien actif */
+    background-color: transparent; /* pas de fond */
+    color: #fff;
+    font-weight: bold;
+  }
+  
+
+  .modal-overlay {
+    position: fixed; /* Couvre toute la fenêtre */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Arrière-plan semi-transparent */
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    z-index: 1000; /* Assure que le modal est au-dessus de tout */
+    backdrop-filter: blur(5px); /* Floute l'arrière-plan */
+    
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 80%; 
+    width: 500px; /* Largeur maximale */
+    height: 200px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .icon-margin{
+    margin-right: 10px;
+    height: 28px;
+    width: 28px;
+  }
+
+
+  /* Flou de fond */
+.custom-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Style du modal centré */
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  padding: 30px;
+  background: white;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.custom-modal input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.custom-modal button {
+  padding: 10px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 48%;
+}
+
+.custom-modal button:hover {
+  background-color: #2563eb;
+}
+
+
+.searchNinput {
+  margin: auto 45px;
+}

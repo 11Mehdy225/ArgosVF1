@@ -1,0 +1,61 @@
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  color: black;
+  max-width: 500px;
+  margin: auto;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+  z-index: 999;
+}
+
+  
+  .modalForm {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .modalButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btnConfirm {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btnCancel {
+    background: #ccc;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+
+.ReactModal__Overlay {
+  pointer-events: none;
+}
+
+.ReactModal__Overlay--after-open {
+  pointer-events: auto;
+}

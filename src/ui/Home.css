@@ -1,0 +1,110 @@
+.home-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: calc(100vh - 120px); /* ajuste selon la hauteur de ton header/footer */
+    box-sizing: border-box;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+  }
+  
+  .home-title {
+    margin: 0;
+    font-size: 24px;
+    
+  }
+  
+  .home-layout {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* permet l'adaptation sur petits écrans */
+  }
+  
+  .home-left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .home-right {
+    flex: 1;
+  }
+  
+
+  /* alerte composant */
+
+  .vehicle-risk {
+    border: 2px solid red;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #fff5f5;
+    border-radius: 10px;
+  }
+  
+  .vehicle-risk-title {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .vehicle-risk-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .vehicle-risk-table th,
+  .vehicle-risk-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .vehicle-risk {
+    border: 2px solid red;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #fff5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+  }
+  
+  .vehicle-risk-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .vehicle-risk-title {
+    color: red;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .risk-badge {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+  }
+  
+  .vehicle-risk-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .vehicle-risk-table th,
+  .vehicle-risk-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .vehicle-risk-table th {
+    background-color: #f44336;
+    color: white;
+  }
+  

@@ -1,0 +1,108 @@
+.rank-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    max-width: 700px;
+    margin: 20px auto;
+  }
+  
+  .rank-container h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .rank-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .rank-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .rank-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .refresh-btn,
+.export-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.refresh-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.refresh-btn:hover {
+  background-color: #0056b3;
+}
+  .export-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .export-btn:hover {
+    background-color: #1e7e34;
+  }
+  
+  .rank-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .rank-table th {
+    background-color: #f8f9fa;
+    padding: 12px;
+    color: #333;
+    border-bottom: 2px solid #dee2e6;
+    text-align: center;
+  }
+  
+  .rank-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .rank-table tr:nth-child(even) {
+    background-color: #f6f8fa;
+  }
+  
+  .risque-badge {
+    background-color: #dc3545;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+  
+.buttonStylePdf {
+    padding: "8px 16px";
+    font-Size: "14px";
+    background-Color: "#28a745";
+    color: "#fff";
+    border: "none";
+    border-Radius: "4px";
+    cursor: "pointer";
+}

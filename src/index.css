@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import "leaflet/dist/leaflet.css";
+
+
+:root {
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  /* font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ; */
+  font-family: Cabin, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 1400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+body {
+  min-height: 100vh;
+  background-color: #f2f1f7;
+  font-family: Cabin, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0;
+  padding : 0;
+  color: black;
+  overflow-x: hidden;
+}
+
+
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .Header-gle,
+body.dark .Footer-gle {
+  background-color: #1e1e1e;
+}
+
+body.dark .some-component {
+  background-color: #222;
+  color: white;
+}

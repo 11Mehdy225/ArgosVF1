@@ -1,0 +1,21 @@
+.register-container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fdfdfd;
+  }
+  
+  .register-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .register-container input,
+  .register-container select {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  

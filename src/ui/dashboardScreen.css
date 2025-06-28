@@ -1,0 +1,78 @@
+.dashboard-screen {
+    background-color: #1e1e1e;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centre horizontal */
+  }
+  
+  .clock {
+    font-size: 2rem;
+    margin-bottom: 5px; /* réduis l’espace vertical */
+    color: #ccc;
+  }
+  
+  .dashboard-title {
+    margin: 0 0 10px 0; /* top 0, bottom 10px */
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  
+  .dashboard-content {
+    flex: 1; /* prend toute la hauteur restante */
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* tableau prend toute la hauteur */
+    overflow-y: auto; /* scroll si trop haut */
+  }
+  
+  .events-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    background-color: #2a2a2a;
+    height: 100%; /* prend toute la hauteur du container */
+    table-layout: fixed; /* pour colonnes fixes */
+  }
+  
+  .events-table th,
+  .events-table td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  /* Pour que le tbody prenne toute la hauteur */
+  .events-table tbody {
+    display: block;
+    height: calc(100% - 40px); /* ajuste selon la hauteur du thead */
+    overflow-y: auto;
+  }
+  
+  .events-table thead,
+  .events-table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  .events-table thead {
+    width: calc(100% - 17px); /* ajuste pour la scrollbar */
+  }
+  
+  .event-finished {
+    background-color: #444;
+    color: #aaa;
+    font-style: italic;
+  }
+  .current-date {
+    font-size: 0.95rem;
+    font-style: italic;
+  }

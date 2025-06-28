@@ -1,0 +1,259 @@
+
+
+  /* drivers-list-css */
+  .pagination-bouton{
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 900;
+  }
+
+  .voirPlusButton{
+    border: none;
+    outline: none;        /* supprime le contour focus */
+    background: none;     /* supprime la couleur de fond */
+    box-shadow: none;     /* supprime les ombres éventuelles */
+    padding: 0;           /* facultatif selon le style */
+    cursor: pointer;      /* pour l’apparence clic */
+    color: gray;
+    padding: 10px;
+  }
+
+  .ajouterButton{
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color:#6D5BD0;
+
+
+  }
+
+  .trDriversListHead{
+    background-color:  #D9D5EC;
+    color: gray;
+    text-transform: uppercase;
+  }
+
+  .driversBarSearch{
+    background: #F4F2FF;
+  }
+
+  select {
+    font-size: 0.9rem;
+    padding: 10px 10px;
+  }
+
+  /* Overlay flou */
+/* === FOND FLOUTÉ POUR TOUS LES MODALS === */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Contenu du modal */
+.modalContent {
+  background: #fff;
+  padding: 30px;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  outline: none;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.modalContent h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* === FORMULAIRE DU MODAL === */
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modalForm input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.modalForm input:focus {
+  border-color: #6D5BD0;
+}
+
+
+/* === BOUTONS DU MODAL === */
+.modalButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.modalButtons button {
+  padding: 8px 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.modalButtons button[type="submit"] {
+  background-color: #6D5BD0;
+  color: white;
+}
+.modalButtons button[type="submit"]:hover {
+  background-color: #5a47c5;
+}
+
+
+.modalButtons button[type="button"] {
+  background-color: #eee;
+  color: #333;
+}
+.modalButtons button[type="button"]:hover {
+  background-color: #ddd;
+}
+
+
+/* .modalButtons button {
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+} */
+
+/* .modalButtons button:hover {
+  opacity: 0.9;
+} */
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+
+/* /////////////////////////////////////////////////////// */
+/* driversCARD */
+.modal-driver-content {
+  background: white;
+  padding: 30px;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  outline: none;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.driver-card h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.driver-card p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: black;
+}
+
+.driver-card h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #6D5BD0;
+}
+
+.infraction-list {
+  list-style: none;
+  padding: 0;
+  border-left: 3px solid #6D5BD0;
+  padding-left: 10px;
+}
+
+.infraction-list li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #444;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.modalButtons button {
+  background-color: #6D5BD0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modalButtons button:hover {
+  background-color: #5a47c5;
+}
+
+
+/* formulaire de modification de chauffeurs */
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.edit-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}

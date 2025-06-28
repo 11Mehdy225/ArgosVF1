@@ -1,0 +1,62 @@
+[
+  {
+    "plaque": "3345AB01",
+    "latitude": 5.3480,
+    "longitude": -4.0150,
+    "updatedAt": { "$date": "2025-06-21T08:15:00.000Z" }
+  },
+  {
+    "plaque": "1122CD01",
+    "latitude": 5.3620,
+    "longitude": -4.0025,
+    "updatedAt": { "$date": "2025-06-21T08:20:00.000Z" }
+  },
+  {
+    "plaque": "5566EF01",
+    "latitude": 5.3700,
+    "longitude": -4.0100,
+    "updatedAt": { "$date": "2025-06-21T08:25:00.000Z" }
+  },
+  {
+    "plaque": "7788GH01",
+    "latitude": 5.3405,
+    "longitude": -4.0032,
+    "updatedAt": { "$date": "2025-06-21T08:30:00.000Z" }
+  },
+  {
+    "plaque": "9900IJ01",
+    "latitude": 5.3542,
+    "longitude": -4.0078,
+    "updatedAt": { "$date": "2025-06-21T08:35:00.000Z" }
+  },
+  {
+    "plaque": "1213KL01",
+    "latitude": 5.3595,
+    "longitude": -4.0120,
+    "updatedAt": { "$date": "2025-06-21T08:40:00.000Z" }
+  },
+  {
+    "plaque": "1415MN01",
+    "latitude": 5.3666,
+    "longitude": -4.0180,
+    "updatedAt": { "$date": "2025-06-21T08:45:00.000Z" }
+  },
+  {
+    "plaque": "1617OP01",
+    "latitude": 5.3499,
+    "longitude": -4.0095,
+    "updatedAt": { "$date": "2025-06-21T08:50:00.000Z" }
+  },
+  {
+    "plaque": "1819QR01",
+    "latitude": 5.3510,
+    "longitude": -4.0202,
+    "updatedAt": { "$date": "2025-06-21T08:55:00.000Z" }
+  },
+  {
+    "plaque": "2021ST01",
+    "latitude": 5.3577,
+    "longitude": -4.0055,
+    "updatedAt": { "$date": "2025-06-21T09:00:00.000Z" }
+  }
+]
