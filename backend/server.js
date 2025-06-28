@@ -34,7 +34,7 @@ import dotenv from "dotenv";
 import nodemailer from "nodemailer";
 import twilio from 'twilio';
 
-dotenv.config(); // <== Assure-toi que c’est fait avant d'utiliser process.env
+dotenv.config();
 
 
 // URI de connexion MongoDB
